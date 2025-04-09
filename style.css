@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    margin: 45px 0 144px 17px;
+}
+
+a {
+    color: #989D9C;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s ease;
+}
+
+a:hover {
+    color: #665AE1;
+    transform: scale(1.2);
+}
+
+.btn-login {
+    background-color: #665AE1;
+    border: none;
+    border-radius: 40px;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 130px;
+    height: 41px;
+    transition: .3s ease;
+}
+
+.btn-login:hover {
+    background-color: #473ea5;
+
+}
+
+main {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+    margin: 0 86px 0 66px;
+}
+
+section {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 513px;
+}
+
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    width: 448px;
+}
+
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 514px;
+    margin: 32px 0 65px;
+}
+
+.btn-explore {
+    background-color: #ADFF00;
+    border: none;
+    border-radius: 30px;
+    color: #000;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 239px;
+    height: 64px;
+    transition: .3s ease;
+}
+
+.btn-explore:hover {
+    background-color: #9de600;
+    box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.75);
+}
+
+@media screen and (max-width: 1366px) {
+    header {
+        margin: 24px 0 100px 12px;
+    }
+    
+    a {
+        font-size: 18px;
+        margin-right: 20px;
+    }
+    
+    .btn-login {
+        color: #FFF;
+        font-size: 18px;
+        width: 105px;
+        height: 35px;
+    }
+    
+    img {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 120px 0 66px;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-size: 38px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+    
+    .btn-explore {
+        font-size: 20px;
+        width: 170px;
+        height: 44px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header, p {
+        display: none;
+    }
+
+    main, section {
+        margin: 0;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        max-width: 354px;
+        margin: 215px auto 24px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 28px;
+        width: auto;
+        margin: 7px auto 14px;
+    }
+}
