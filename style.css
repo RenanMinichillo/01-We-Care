@@ -7,11 +7,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-}
-
 header {
     margin: 45px 0 144px 17px;
 }
@@ -163,7 +158,7 @@ p {
     img {
         display: block;
         max-width: 354px;
-        margin: 215px auto 24px;
+        margin: 100px auto 24px;
     }
 
     h1 {
